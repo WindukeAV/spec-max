@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+:root {
+	--main-bg-color: #E5E5E5;
+	--second-bg-color: #171717;
+	--text-color: #fff;
+	--components-color: #FFCD4E;
+	--unpushed-btn: #CCCCCC;
+}
+
+.container {
+	width: 304px;	
+	margin: 0 auto;	
+}
+
+/* MOBILE PORTAIT  */
+
+@media only screen and (min-width: 375px) {
+    .container {
+        width: 355px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .container {
+        width: 405px;
+    }
+}
+
+/* MOBILE LANDSCAPE  */
+
+@media only screen and (min-width: 568px) {
+    .container {
+        width: 528px;
+    }
+}
+
+/* TABLET PORTRAIT  */
+
+@media only screen and (min-width: 768px){
+    .container {
+        width: 728px;
+    }
+}
+
+/* TABLET LANDSCAPE  */
+
+@media only screen and (min-width: 1024px){
+    .container {
+        width: 950px;
+	}
+}
+
+/* LAPTOP & DESKTOP DISPLAYS  */
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        width: 1526px;
+    }
+}
+

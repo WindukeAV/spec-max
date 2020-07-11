@@ -1,0 +1,11 @@
+[
+  {
+    "path": "/",
+    "page": {
+      "title": "",
+      "description": "",
+      "body": "pages/home/home-body",
+      "head": "pages/home/home-head"
+    }
+  }
+]
