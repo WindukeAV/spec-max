@@ -28,18 +28,6 @@ body {
     --unpushed-btn: #CCCCCC;
 }
 
-    /* VISIBILITY */
-
-.isInvisible {
-    visibility: hidden;
-    
-}
-
-.isVisible {
-    visibility: visible;
-}
-
-
 .container {
 	width: 304px;	
 	margin: 0 auto;	
@@ -50,6 +38,10 @@ body {
 @media only screen and (min-width: 375px) {
     .container {
         width: 355px;
+    }
+
+    .isVisible {
+        visibility: visible;
     }
 }
 
@@ -154,3 +146,14 @@ body {
 		display: none;
 	}
 }
+
+.visibility {
+	visibility: hidden;
+}
+
+@media (min-width: 1024px) and (max-width: 2000px) {
+	.isInvisible {
+		visibility: visible;
+	}
+}
+
